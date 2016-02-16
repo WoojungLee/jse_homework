@@ -11,10 +11,9 @@ public class MonthEndDay {
 	 * switch로 처리
 	 * */
 	public static void main(String[] args) {
-		System.out.println("월을 입력해주세요.");
+		System.out.println("년도와 월을 입력해주세요.");
 		Scanner scanner = new Scanner(System.in);
 		int month = scanner.nextInt();
-		
 		switch (month) {
 		case 1: case 3: case 5: case 7: case 8: case 10: case 12:
 			System.out.println("31일 입니다.");
@@ -29,5 +28,7 @@ public class MonthEndDay {
 			System.out.println("숫자를 잘못 입력하셨습니다.");
 			break;
 		}
+		
+		
 	}
 }
